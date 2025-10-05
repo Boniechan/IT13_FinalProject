@@ -3,7 +3,7 @@ Public Class Sale
     Public Property UserID As Integer
     Public Property ProductID As Integer
     Public Property SupplierID As Integer
-    Public Property Quantity As Integer
+    Public Property Quantity As Decimal ' Changed from Integer to Decimal
     Public Property UnitPrice As Decimal
     Public Property TotalAmount As Decimal
     Public Property SaleDate As DateTime
